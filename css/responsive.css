@@ -1,0 +1,77 @@
+@media (min-width: 1000px){
+	.pogoSlider{
+  height: 83vh !important;
+}
+.hostels-view .row .col-md-8 .card .content .col-md-6:first-child div img{
+  /*transition: 1s;*/
+  height: 47vh;
+  overflow: hidden;
+}
+.hostels-view .row .col-md-6:last-child .hostel-details .row .col-md-6:first-child p{
+  padding-top: 20%;
+  opacity: .7;
+}
+.hostels-view .row .col-md-6:last-child .hostel-details .row .col-md-6:first-child p .fa-calendar-alt{
+  color: #6a7be7;
+  margin-right: 7px;
+}
+.hostels-view .row .col-md-6:last-child .hostel-details .row .col-md-6:last-child button{
+  border: 1px solid #6a7be7;
+  padding: 20px 30px;
+  border-radius: 50px;
+}
+.hostels-view .row .col-md-8 .hostel-details-carousel .owl-carousel .item img{
+  height: 80vh;
+}
+#loginModal{
+  margin-top: 10%;
+}
+ #signUpModal{
+  margin-top: 8%;
+ }
+
+#loginModal .modal-content,
+#signUpModal .modal-content{
+  border-radius: 0 !important;
+  width: 94%;
+  padding: 20px;
+}
+#loginModal .nav .nav-item,
+#signUpModal .nav .nav-item{
+  margin:10px;
+}
+#loginModal .nav .nav-item button,
+#signUpModal .nav .nav-item button{
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 5%;
+  height: 48px;
+  width: 100%;
+  color: #6a7be7;
+  padding:auto;
+  border-radius: 3px !important;
+  /*margin-right: 10px;*/
+  box-shadow: 0 10px 30px 0 rgba(0,0,0,.2);
+}
+#loginModal .nav .nav-item button.active,
+#signUpModal .nav .nav-item button.active{
+  background-color: #6a7be7;
+  color:#fff;
+  box-shadow: none;
+  border-color: transparent;
+}
+#loginModal .nav,
+#signUpModal .nav{
+  position: absolute;
+  z-index: 9;
+  border-radius: none;
+  padding-bottom: 35%;
+  left: 19%;
+  top:-30px;
+  /*padding-bottom: 10px;*/
+  border:none;
+}
+.popularListing .row .card figure img{
+  height: 40vh;
+}
+}
